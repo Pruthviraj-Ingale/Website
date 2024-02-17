@@ -1,0 +1,25 @@
+4
+
+
+    //Start Generator Function (startGenerator)://
+
+    // Function to start the recommendation generator
+    
+    function startGenerator() {
+    alert("Welcome to the Recommendation Generator!");
+    alert("You will receive recommendations for anime, movies, and books based on your preferences.");
+    alert("Please answer the following questions with 'y' (yes) or 'n' (no).");
+
+    const answer = promptUser("Are you ready to begin? (y/n)");
+
+    if (answer === 'y') {
+        // code for asking user preferences for anime, movies, and books...
+    } else if (answer === 'n') {
+        alert("Okay, feel free to return whenever you're");
+    } else {
+        alert("Invalid input. Please enter 'y' or 'n'.");
+    }
+    }   
+
+
+    
